@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>ABC</h1>
-    <nuxt-link to="post">Go POst</nuxt-link>
+    <nuxt-link to="users">Go POst</nuxt-link>
   </div>
 </template>
 

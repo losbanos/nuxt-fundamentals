@@ -1,6 +1,6 @@
 import {Component, Vue} from 'nuxt-property-decorator';
 
 @Component
-export default class Post extends Vue {
+export default class Thank extends Vue {
 
 }
