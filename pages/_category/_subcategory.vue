@@ -12,7 +12,7 @@ import {Component, Vue} from 'nuxt-property-decorator';
 import {Context} from '@nuxt/types';
 
 @Component
-export default class _subcategory extends Vue {
+export default class Subcategory extends Vue {
     protected asyncData({params}: Context) {
         return {subcategory: params.subcategory}
     }

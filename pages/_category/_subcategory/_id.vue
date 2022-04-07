@@ -2,7 +2,7 @@
     <div>
         <hr />
         <h4>This is category-subcategory-id.vue</h4>
-        <p>This Params is {{id}}</p>
+        <p>This Params is {{cid}}</p>
     </div>
 </template>
 
@@ -10,10 +10,16 @@
 import {Component, Vue} from 'nuxt-property-decorator';
 import {Context} from '@nuxt/types';
 
-@Component
-export default class _index extends Vue {
+@Component({
+    data: () => {
+        return {
+            cid: ''
+        }
+    }
+})
+export default class Index extends Vue {
     protected asyncData({params}: Context) {
-        return {id: params.id};
+        return {cid: params.id};
     }
 }
 </script>
