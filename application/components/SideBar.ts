@@ -11,9 +11,9 @@ interface MenuItem {
 export default class SideBar extends Vue {
     private menus: Array<MenuItem> = [
         {
-            title: 'Menu 1',
+            title: 'Home',
             id: 'menu1',
-            name: 'category',
+            name: 'index',
             category: 10,
         },
         {
