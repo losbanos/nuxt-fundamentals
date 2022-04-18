@@ -15,6 +15,13 @@ export default class index extends Vue {
     protected asyncData({params}: Context) {
         return {subcategory: params.subcategory}
     }
+
+    protected created() {
+        console.log('[created] store = ', this.$store);
+    }
+    protected mounted() {
+        console.log('[mounted] store = ', this.$store);
+    }
 }
 </script>
 
