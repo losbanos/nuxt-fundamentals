@@ -4,9 +4,4 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-  name: 'IndexPage'
-})
-</script>
+<script lang="ts" src="./index.ts"></script>
